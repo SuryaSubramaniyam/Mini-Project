@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthdayorderform</title>
+    <link rel="stylesheet" href="style13.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Birthday Catering Order Form</h1><br><br>
+        <form action="" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name"  placeholder="enter your name" required><br>
+            </div>
+            <div class="form-group">
+                <label for="name">Contact Number:</label>
+                <input type="number" id="number" name="number" required><br>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="bname">Birthday person Name:</label>
+                <input type="text" id="bname" name="bname" required><br>
+            </div>
+            <div class="form-group">
+                <label for="eventDate">Event Date:</label>
+                <input type="date" id="eventDate" name="eventDate" required>
+            </div>
+            <div class="form-group">
+                <label for="eventDate">Event Time:</label>
+                <input type="time" id="eventtime" name="eventtime" required>
+            </div>
+            <div class="form-group">
+                <label for="eventDate">Venue place:</label>
+                <input type="text" id="Venue" name="venue" required>
+            </div>
+            <div class="form-group">
+                <label for="Venuetype">Venue Type:</label>
+                <select id="Venuetype" name="venuetype" required>
+                    <option value="Ballrooms">Ballrooms</option>
+                    <option value="Hotels and Resorts">Hotels/Resorts</option>
+                    <option value="Banquet Halls">Banquet Halls</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="guestCount">Number of Guests:</label>
+                <input type="number" id="guestcount" name="guestcount" required>
+            </div>
+          
+
+            <div class="form-group">
+                    <label for="Customize menu">Customize Menu</label><br><br>
+                    <label for="Appetizers">Appetizers</label><br>
+                    <label>
+                        <input type="checkbox" id="checkbox1" name="appetizers" required>samosa</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox2" name="appetizers" required>Deep-fried potato</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox3" name="appetizers" required>chaats</label><br>
+                        
+                        <label for="Maincourse">Maincourse</label><br>
+                    <label>Non-veg Menu:</label>
+                    <label>
+                        <input type="checkbox" id="checkbox4" name="appetizers" required>chiken Biriyani</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox5" name="appetizers" required>mutton biryani</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox5" name="appetizers" required>chiken/mutton gravery</label><br>
+                        <label>Non-veg Menu:</label>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>Meals combo</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>panner butter masala</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>vegitable biriyani</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>channa masala</label><br>
+
+                    <label>sides:</label>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>raita</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>mixed pickles</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>green chutney</label><br>
+
+                    <label>desserts</label>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>gulab jamun</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>rasgulla</label><br>
+                        <label>
+                        <input type="checkbox" id="checkbox6" name="appetizers" required>kheer/jalebi</label><br>
+
+                    <button type="button" onclick="alert('order submitted!')">submit Order</button>
+                </div>
+
+</body>
+</html>

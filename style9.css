@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url(img/spices.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    background-color:maroon;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.menu-item h3 {
+    margin: 0;
+  font-size: 30px;
+}
+.menu-item ul li{
+    font-size: 20px;
+    font-weight: bold;
+    list-style:circle;
+}
+
+.menu-item p {
+    font-size: 20px;
+    margin: 10px 0;
+}

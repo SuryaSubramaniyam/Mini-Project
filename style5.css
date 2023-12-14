@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width:90%;
+    margin: 30px auto;
+    padding: 20px;
+    background-image: url(img/wed5.png);
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight:bold;
+    margin-bottom: 70px;
+}
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.image{
+    flex: 1;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 19px;   
+}
+.image img{
+    width: 100%;
+    transition: transform 0,3s ease;
+}
+.image:hover img{
+    transform: scale(1.1);
+}
+.content{
+    flex: 1;
+    margin-left: 20px;
+}
+.content p{
+    font-size: 17px;
+    line-height: 1.5;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.button{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:maroon;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.button:hover{
+ transform: scale(1.1);
+ background-color: green;
+}
+@media screen  and (max-width: 768px){
+    .about-content{
+    flex-direction: column;
+    }
+    .image,.content{
+    margin: 0;
+    margin-bottom: 20px;
+
+    }
+    .title{
+    font: size 38px; 
+    margin: bottom 50px; 
+    }
+}
+    

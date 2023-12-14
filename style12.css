@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background: url(img/wed5.png);
+}
+.container {
+  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    background-color: #fff;
+    margin-top: 100px;
+    padding: 80px;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: maroon;
+}
+label {
+    font-weight: bolder;
+}
+.form-group {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+select {
+  
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group input[type="date"]
+{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group input[type="time"]
+{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group input[type="number"]
+{   
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.form-group input[type="radio"]
+{
+    width: 20px; 
+    height: 20px;
+    border: 2px solid maroon; 
+    border-radius: 80%;  
+    margin-right: 8px; 
+    cursor: pointer; 
+}
+.form-group input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+button:hover {
+    background-color: #c0392b;
+}

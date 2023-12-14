@@ -1,0 +1,72 @@
+body{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(./img/hall12.jpg);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-width: 450px;
+    background-color: #fff;
+    margin-top: 100px;
+    padding: 80px;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+.container h1{
+    text-align: center;
+    font-weight: bolder;
+    color: maroon;
+}
+.container label{
+    font-weight: bolder;
+    margin-left: 5%;
+}
+.container input[type="email"],
+.container input[type="text"],
+
+select
+{
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 75%;
+    margin-top: 9px;
+    margin-left: 5%;
+}
+.container textarea{
+    display: block;
+    padding:  15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 85%;
+    margin-top: 9px;
+    margin-left: 5%;
+}
+.container button{
+    background-color: maroon;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.container button:hover{
+    transform: scale(1.1);
+  
+}
+.container img{
+    flex: 1;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 19px;   
+    width: 110%;
+    height: 15vh;
+}

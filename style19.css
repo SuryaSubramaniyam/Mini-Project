@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.side-bar{
+    background-color: maroon;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    padding: 20px;
+}
+.content{
+    margin-left: 300px;
+    padding: 20px;
+}
+.side-bar h1{
+    color: green;
+}
+.side-bar ul{
+    list-style: none;
+    padding: 0;
+}
+.side-bar ul li{
+  margin-bottom: 20px;
+}
+.side-bar ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.content{
+    background-color: maroon;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    padding: 20px;
+    margin: 18%;
+    margin-top: 0;
+}
+.content h1{
+    text-align: center;
+    margin-top: 5px;
+}
+.content a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    font-size: x-large;
+    margin-top: 3px;
+}
+.side-bar ul li a:hover{
+background-color: green;
+transform: scale(1.1);
+}
+.content a:hover{
+    background-color: green;
+transform: scale(1.1);
+}
+/*table deisgn*/
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+.customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.customers tr:nth-child(even){background-color: green;}
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
